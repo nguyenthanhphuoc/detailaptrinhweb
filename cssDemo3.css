@@ -1,0 +1,151 @@
+.container {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1300px;
+  }
+.container>.navbar-header{
+	 margin-right: 0px;
+  	margin-left: -15px;
+  	margin-top: 100px;
+}
+.container img{
+	width: 100px;
+	height: 100px;
+	margin-top: 5px;
+	margin-left: 100px;
+}
+
+
+.container0{
+background: url(background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+
+#stw{
+	text-align: center;
+	font-family: time roman;
+	color: blue;
+	font-size:25;
+	margin-right: 400px;
+}
+#stw2{
+	text-align: center;
+	font-family: time roman;
+	color: red;
+	font-size: 15;
+	margin-top: 20;
+	margin-right: 400px;
+}
+
+.navbar-nav li {
+    margin:10px;
+    position:relative;
+    list-style:none;
+}/*theo dog*/
+
+.navbar-nav a {
+    font-weight:bold;
+    text-decoration:none;
+    display:block;
+    padding:8px 20px;
+    color: #F2F2F2;
+}
+
+
+.navbar-nav .current a, .navbar-nav li:hover > a {
+    background:#7788aa  repeat-x 0 -20px;
+    border-top:1px solid #f8f8f8;
+}
+
+/* sublevels */
+.navbar-nav ul li:hover a, .navbar-nav li:hover li a {
+    background:none;
+    border:none;
+    color:#000;
+}
+
+
+.navbar-nav ul li a {
+background:#335599 repeat-x 0 -100px;
+color:#fff;
+} /*chinh mau khug chon*/
+
+.navbar-nav ul li:first-child > a {
+}
+.navbar-nav ul li:last-child > a {
+}
+
+.navbar-nav ul li a:hover {
+    background:#335599  repeat-x 0 -100px;
+    color:#fff;
+}
+ 
+.navbar-nav li:hover > ul {
+opacity:1;
+visibility:visible;
+}
+
+.navbar-nav ul {
+    opacity:0;
+    visibility:hidden;
+    padding:0;
+    width:250px;
+    position:absolute;
+    background:#aabbcc  repeat-x 0 0;
+    border:1px solid #7788aa;
+
+}
+.navbar-nav ul a {
+font-weight:normal;
+text-shadow:0 2px 2px rgba(255,255,255, 0.7);
+}
+.navbar-nav ul ul {
+left:175px;
+top:0px;
+ margin-left: 50px;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav {
+    float: left;
+    margin: -10;
+    color: white;
+  }
+
+.container-fluid {
+    margin-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #08088A;
+}
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  background-color: 
+}
+
+.table-bordered {
+  border: 1px solid #ddd;
+  background-color: white;
+}
+#thongbao{
+  color: red;
+  text-align: center;
+  font-size: 30;
+  font-family: time roman;
+}
+.panel-group {
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
